@@ -80,6 +80,10 @@ function fillUserData(resp, userData) {
 // Routes
 //
 
+router.get('/', function (req, res) {
+  res.send('Monea test app');
+});
+
 router.post("/login", (req, res) => {
 
 	var user = req.body.username;
