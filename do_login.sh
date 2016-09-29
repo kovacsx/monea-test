@@ -1,1 +1,1 @@
-curl -X POST http://localhost:5000/login -H "Content-Type:application/json" -v -d @login_json
+curl -X POST http://moneatest-91039.onmodulus.net/login -H "Content-Type:application/json" -v -d @login_json

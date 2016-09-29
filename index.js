@@ -9,7 +9,7 @@ var mongoose = require("mongoose");
 // Globals
 //
 
-var port = 5000;
+var port = process.env.PORT;
 
 //
 // Schemas & models
