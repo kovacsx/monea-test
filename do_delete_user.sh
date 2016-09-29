@@ -1,0 +1,1 @@
+curl -X DELETE http://localhost:5000/users/2 -H "Content-Type:application/json" -H "Authorization:123" -v
